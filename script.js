@@ -1,4 +1,3 @@
-
 //login form validation with callback. Function called from form button click event
 function validateform(callback) {
     var uname = document.getElementById("username");
