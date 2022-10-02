@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  /* Login */
+
+  #login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 500px;
+    height: 360px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+
+  /* Header */
+  .header {
+    height : 50px; 
+    text-align: right;
+    padding-right: 70px;
+  }
+
+  .navlinks {
+    color: #EAEAEA;
+    text-decoration: none;
+  }
+  .navlinks:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .active {
+    color: white;   
+    text-shadow: 2px 2px black; 
+  }
+
+  /* Todo list*/
+  .todo-w80 {
+    width: 80%;
+    border: 1px solid black;
+  }
+
+  /*footer*/
+  .footer {
+    height:40px; 
+    background-color: gray;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .header {
+      height : 50px; 
+      text-align: center; 
+    }
+  }
